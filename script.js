@@ -23,6 +23,8 @@ function MoneyToGram() {
     if (PriceF > 0 && MoneyF > 0) {
       const FinalValueStore = (MoneyF / PriceF) * 1000;
       output.innerText = `${FinalValueStore} Grams`;
+      Price.value="";
+      Money.value="";
     }
   }
 }
@@ -44,6 +46,8 @@ function GramToMoney() {
     if (PriceStoreG > 0 && GramStoreG >= 0) {
       const FinalOutput = (GramStoreG * PriceStoreG) / 1000;
       ot.innerText = `${FinalOutput} Ruppes`;
+      pe.value="";
+      my.value="";
     }
   });
 }
