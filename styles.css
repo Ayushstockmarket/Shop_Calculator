@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background-color: orange;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+main {
+  margin-top: 100px;
+}
+.calculate_values,.Gram_To_Money{
+  width: 100%;
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  align-items: center;
+  gap: 50px;
+  font-size: 2rem;
+  border: 1px solid black;
+}
+.sa {
+  width: 100%;
+}
+.enter_price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+}
+button {
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+}
+.output {
+  font-size: 2rem;
+  color: white;
+}
+input{
+    outline: none;
+    height: 40px;
+    border: none;
+}
+h1{
+    font-size: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+@media only screen and (max-width: 600px) {
+      header {
+        font-size: 1rem;
+      }
+      main{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+      .calculate_values,.Gram_To_Money{
+        width: 100%;
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        align-items: center;
+        gap: 50px;
+        font-size: 1rem;
+        border: 1px solid black;
+        border-radius: 50px;
+      }
+      .sa {
+        width: 100%;
+      }
+      .enter_price {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      button {
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color: greenyellow;
+      }
+      .output {
+        font-size: 1rem;
+        color: white;
+      }
+      input{
+          outline: none;
+          height: 30px;
+          border: none;
+      }
+      h1{
+          font-size: 1rem;
+      }
+    }
